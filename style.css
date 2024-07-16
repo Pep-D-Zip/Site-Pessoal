@@ -1,0 +1,115 @@
+*{
+ margin: 5px;
+}
+body {
+ font-family: Arial, sans-serif;
+ display: flex;
+ justify-content: center;
+ min-height: 130vh;
+ background-color: rgb(22, 22, 22);
+}
+img {
+max-width: 100%;
+height: auto;
+}
+.container {
+text-align: center;
+padding: 20px;
+background-color: #ffffff;
+box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.582);
+border-radius: 8px;
+max-width: 1300px;
+width: 100%;
+margin: 20px;
+}
+.social-div{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    margin: auto;
+}
+.btn-social {
+ display: flex;
+ width: 30%;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ background-color: #00000081;
+ color: #ffffff;
+ border-radius: 5px;
+ text-decoration: none;
+ font-size: 18px;
+ transition: background-color 0.3s;
+ justify-content:center;
+ align-items: center;
+
+} 
+.btn-social img {
+ width: 20px;
+ height: 20px;
+ vertical-align: middle;
+ 
+}
+.btn-social-whatsapp{
+background-color: #25D366;
+color:black;
+}
+.btn-social-whatsapp:hover {
+background-color: #1EBE52;
+color: white;
+}
+.btn-social-gmail{
+    background-color: #ff5050;
+    color:black;
+}
+.btn-social-gmail:hover {
+    background-color: #b31313;
+    color: white;
+}
+.btn-social-Git{
+    background-color: #bdbdbd;
+    color:rgb(0, 0, 0);
+}
+.btn-social-Git:hover {
+    background-color: #353535;
+    color: white;
+}
+.btn-social-LinkedIn{
+    background-color: #49b5e7;
+    color:black;
+}
+.btn-social-LinkedIn:hover {
+    background-color: #1179b4;
+    color: white;
+}
+.btn-social-instagram{
+ background-image: linear-gradient(to left, #5B51D8, #E1306C, #C13584,#FCAF45);
+ background-size:300%;
+ background-position: 0 0;
+ transition: all ease 0.5s;
+ color: black;
+}
+.btn-social-instagram:hover {
+ background-position: 100% 0;
+ color: rgb(255, 255, 255);
+}
+.sobre{
+    font-size: 40px;
+}
+.bio {
+    font-size: 20px;
+}
+
+.celText{display: none;}
+.text{font-size: 28;}
+@media (max-width:720px){
+    .btn-social {
+        width: 100%;
+       } 
+    .sobre p {
+        font-size: 20px;
+    }
+    .social-div{flex-direction: column;}
+    .text{display: none}
+    .celText{display: initial;}
+}
+
